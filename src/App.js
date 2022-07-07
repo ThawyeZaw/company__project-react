@@ -1,14 +1,15 @@
 import './App.css'
-import images from './images2/images'
+import images from './images/images'
+import Home from './components/Home'
+import Nav from './components/Nav'
 
 function App() {
 	return (
-		<>
-			<div className='App h-screen bg-slate-100'>
-				<img src={images.photo1} className='sticky top-0 z-0 h-full w-full object-cover object-left lg:object-fill' alt='logo' />
-			</div>
-			<div className='z-10 h-screen bg-slate-600'></div>
-		</>
+		<div className='App relative w-screen overflow-hidden'>
+			<Nav />
+			<Home />
+			
+		</div>
 	)
 }
 
