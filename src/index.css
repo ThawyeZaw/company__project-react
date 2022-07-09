@@ -2,8 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	body{
+		overflow-x: hidden;
+	}
+}
+
 @layer components {
+
+	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+	
 	.home {
-		background: linear-gradient(180deg, rgba(30, 30, 30, 0.6) 0%, rgba(217, 217, 217, 0) 100%, rgba(0, 0, 0, 0) 100%);
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 15%, rgba(0, 0, 0, 0) 100%);
+	}
+
+	.text-stroke {
+		--stroke-width: 2px;
+		-webkit-text-stroke-width: var(--stroke-width);
+		-webkit-text-stroke-color: #424242;
+	}
+
+	.work-bg-gradient{
+		background: linear-gradient(180deg, #BC987E 0%, rgba(133, 94, 66, 0.8) 60%, rgba(188, 152, 126, 0.28) 100%);
 	}
 }
