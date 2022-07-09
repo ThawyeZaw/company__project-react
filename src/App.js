@@ -19,6 +19,7 @@ function App() {
 
 		}
 	}, [])
+	
 	return (
 		<div className='App relative w-screen overflow-x-hidden'>
 			<Nav />
