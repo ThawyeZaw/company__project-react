@@ -11,10 +11,10 @@ function App() {
 		function changeNavStyleOnScroll() {
 			const nav = document.querySelector('nav')
 
-			if (window.scrollY > nav.offsetHeight) {
-				nav.classList.add('bg-slate-200', 'bg-opacity-80')
+			if (window.scrollY > 10) {
+				nav.classList.add('bg-slate-200', 'bg-opacity-80', 'text-gray-800')
 			} else {
-				nav.classList.remove('bg-slate-200', 'bg-opacity-80')
+				nav.classList.remove('bg-slate-200', 'bg-opacity-80', 'text-gray-800')
 			}
 
 		}

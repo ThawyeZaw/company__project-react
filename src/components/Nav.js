@@ -5,11 +5,11 @@ import { FiMenu } from 'react-icons/fi'
 const Nav = () => {
 
 	return (
-		<nav className='fixed op-0 z-10 flex h-16 w-full items-center justify-between lg:justify-around lg:h-24'>
+		<nav className='fixed text-gray-100 transition duration-500 op-0 z-10 flex h-16 w-full items-center justify-between lg:justify-around lg:h-24'>
 			<div className='w-40 ml-8 lg:ml-0'>
 				<img src={images.logo_edited} alt='DreamLand' />
 			</div>
-			<ul className='hidden gap-12 text-lg font-bold tracking-wider text-gray-100 lg:flex xl:text-2xl'>
+			<ul className='hidden gap-12 text-lg font-bold tracking-wider lg:flex xl:text-2xl'>
 				<li>Home</li>
 				<li>About</li>
 				<li>Designs</li>
