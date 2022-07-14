@@ -5,7 +5,7 @@ import { FiMenu } from 'react-icons/fi'
 const Nav = () => {
 
 	return (
-		<nav className='fixed text-gray-100 transition duration-500 op-0 z-10 flex h-16 w-full items-center justify-between lg:justify-evenly lg:h-24'>
+		<nav className='fixed cursor-pointer text-gray-100 transition duration-500 op-0 z-10 flex h-16 w-full items-center justify-between lg:justify-evenly lg:h-24'>
 			<div className='w-40 ml-8 lg:ml-0'>
 				<img src={images.logo} alt='DreamLand' />
 			</div>

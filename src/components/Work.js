@@ -1,5 +1,6 @@
 import React from 'react'
 import images from '../images/images'
+import TypeAnimation from 'react-type-animation'
 
 const Work = () => {
 	return (
@@ -9,13 +10,21 @@ const Work = () => {
 					<img src={images.photo2} alt='loading' className='h-full w-full object-cover lg:rounded-br-3xl' />
 				</div>
 				<div className='relative flex h-[40vh] w-[100vw] items-center justify-center lg:h-[60vh] lg:w-[50vw]'>
-					<div className='absolute top-0 flex h-full w-full justify-center items-center'>
+					<div className='absolute top-0 flex h-full w-full items-center justify-center'>
 						<img src={images.bg1} alt=' ' className='h-3/4' />
 					</div>
-					<h1 className='text-stroke w-3/4 items-center text-[6.5vw] font-extrabold text-gray-50 lg:text-[3.3vw]'>Experienced Engineers</h1>
+					<h1 className='text-stroke w-3/4 items-center whitespace-nowrap text-[6.5vw] font-extrabold text-gray-50 lg:text-[3.3vw]'>
+						<TypeAnimation cursor={true} sequence={['Experienced Engineers.', 2000, 'Stunning designs.', 2000, 'Best plans.']} wrapper='p' repeat={Infinity} />
+					</h1>
 				</div>
 			</div>
-			<img src={images.photo2} alt='loading' className='mt-56 opacity-70 object-cover mix-blend-screen' />
+			<div className='relative mt-16 lg:mt-36'>
+				<h1 className='text-stroke pt-4 text-center text-[6.5vw] font-extrabold text-gray-50 lg:text-[3.3vw]'>Everything we can to deliver you the best homes.</h1>
+				<div className='h-[100vmax]'>
+					<h1 className=''>Our Works</h1>
+				</div>
+				<img src={images.photo2} alt='loading' className='absolute bottom-0 h-[100vmax] w-full object-cover opacity-70 mix-blend-screen' />
+			</div>
 		</div>
 	)
 }
