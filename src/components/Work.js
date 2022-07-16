@@ -1,6 +1,6 @@
 import React from 'react'
 import images from '../images/images'
-import TypeAnimation from 'react-type-animation'
+import Typewriter from 'typewriter-effect'
 
 const Work = () => {
 	return (
@@ -14,7 +14,15 @@ const Work = () => {
 						<img src={images.bg1} alt=' ' className='h-3/4' />
 					</div>
 					<h1 className='text-stroke w-3/4 items-center whitespace-nowrap text-[6.5vw] font-extrabold text-gray-50 lg:text-[3.3vw]'>
-						<TypeAnimation cursor={true} sequence={['Experienced Engineers.', 2000, 'Stunning designs.', 2000, 'Best plans.']} wrapper='p' repeat={Infinity} />
+						<Typewriter
+							options={{
+								strings: ['Experienced Engineers.', 'Stunning designs.', 'Best plans.'],
+								autoStart: true,
+								loop: true,
+								delay: 200,
+								deleteSpeed: 50
+							}}
+						/>
 					</h1>
 				</div>
 			</div>
