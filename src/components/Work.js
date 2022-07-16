@@ -31,7 +31,7 @@ const Work = () => {
 				<div className='h-[100vmax]'>
 					<h1 className=''>Our Works</h1>
 				</div>
-				<img src={images.photo2} alt='loading' className='absolute bottom-0 h-[100vmax] w-full object-cover opacity-70 mix-blend-screen' />
+				<img src={images.photo2} alt='loading' className='absolute bottom-0 h-[100vh] w-full object-cover opacity-70 mix-blend-screen' />
 			</div>
 		</div>
 	)

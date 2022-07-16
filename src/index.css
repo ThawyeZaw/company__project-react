@@ -18,7 +18,7 @@
 	.home-text > span:hover {
 		color: rgb(161 98 7);
 		font-size: 120%;
-		transition: 0.2s;
+		transition: 0.5s;
 	}
 
 	.text-stroke {
