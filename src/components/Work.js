@@ -1,6 +1,6 @@
-import React from 'react'
 import images from '../images/images'
 import Typewriter from 'typewriter-effect'
+import Slider from './Slider'
 
 const Work = () => {
 	return (
@@ -27,11 +27,12 @@ const Work = () => {
 				</div>
 			</div>
 			<div className='relative mt-16 lg:mt-36'>
-				<h1 className='text-stroke pt-4 text-center text-[6.5vw] font-extrabold text-gray-50 lg:text-[3.3vw]'>Everything we can to deliver you the best homes.</h1>
-				<div className='h-[100vmax]'>
-					<h1 className=''>Our Works</h1>
+				<h1 className='text-stroke pt-4 text-center text-[5.6vw] font-extrabold text-gray-50 md:text-[3.6vw]'>Everything we can to deliver you the best homes.</h1>
+				<div className='h-[calc(100vh-4rem)] z-10'>
+					<h1 className='w-full text-center text-stroke text-gray-50 text-[5vw] h-[20%] font-extrabold'>Our Works</h1>
+					<Slider />
 				</div>
-				<img src={images.photo2} alt='loading' className='absolute bottom-0 h-[100vh] w-full object-cover opacity-70 mix-blend-screen' />
+				<img src={images.photo2} alt='loading' className='absolute z-[-1] bottom-0 h-[calc(100vh-4rem)] w-full pt-2 object-cover opacity-60 mix-blend-screen' />
 			</div>
 		</div>
 	)

@@ -1,4 +1,3 @@
-import React from 'react'
 import images from '../images/images'
 import { BiSearchAlt2 } from 'react-icons/bi'
 

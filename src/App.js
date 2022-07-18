@@ -2,7 +2,7 @@ import './App.css'
 import Home from './components/Home'
 import Nav from './components/Nav'
 import Work from './components/Work'
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 
 function App() {
 	useEffect(() => {
