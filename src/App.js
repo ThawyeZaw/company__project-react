@@ -12,10 +12,10 @@ function App() {
 			const nav = document.querySelector('nav')
 
 			if (window.scrollY > 10) {
-				nav.classList.add('bg-slate-200', 'bg-opacity-80', 'text-gray-800', 'text-gray-700')
+				nav.classList.add('bg-slate-200', 'bg-opacity-90', 'text-gray-800', 'text-gray-700')
 				nav.classList.remove('text-gray-100')
 			} else {
-				nav.classList.remove('bg-slate-200', 'bg-opacity-80', 'text-gray-800', 'text-gray-700')
+				nav.classList.remove('bg-slate-200', 'bg-opacity-90', 'text-gray-800', 'text-gray-700')
 				nav.classList.add('text-gray-100')
 			}
 

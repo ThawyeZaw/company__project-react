@@ -1,4 +1,4 @@
-import images from '../images/images'
+import { images } from '../images/images'
 import { BiSearchAlt2 } from 'react-icons/bi'
 
 const Home = () => {

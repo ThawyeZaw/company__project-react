@@ -1,4 +1,4 @@
-import images from '../images/images'
+import { images } from '../images/images'
 import Typewriter from 'typewriter-effect'
 import Slider from './Slider'
 
@@ -20,7 +20,7 @@ const Work = () => {
 								autoStart: true,
 								loop: true,
 								delay: 200,
-								deleteSpeed: 50
+								deleteSpeed: 50,
 							}}
 						/>
 					</h1>
@@ -28,11 +28,12 @@ const Work = () => {
 			</div>
 			<div className='relative mt-16 lg:mt-36'>
 				<h1 className='text-stroke pt-4 text-center text-[5.6vw] font-extrabold text-gray-50 md:text-[3.6vw]'>Everything we can to deliver you the best homes.</h1>
-				<div className='h-[calc(100vh-4rem)] z-10'>
-					<h1 className='w-full text-center text-stroke text-gray-50 text-[5vw] h-[20%] font-extrabold'>Our Works</h1>
+				<div className='z-10 h-[100vh]'>
+					<h1 className='text-stroke h-[15%] w-full text-center text-[5vw] font-extrabold text-gray-50'>Our Works</h1>
 					<Slider />
+					<div className='h-[10%]'></div>
 				</div>
-				<img src={images.photo2} alt='loading' className='absolute z-[-1] bottom-0 h-[calc(100vh-4rem)] w-full pt-2 object-cover opacity-60 mix-blend-screen' />
+				<img src={images.photo2} alt='loading' className='absolute bottom-0 z-[-1] h-[100vh] w-full object-cover pt-2 opacity-60 mix-blend-screen' />
 			</div>
 		</div>
 	)

@@ -1,19 +1,21 @@
-import images from "../images/images"
+import { images, slide_image } from '../images/images'
 
-const Slide = (props) => {
-  return (
-    <div className="w-[50vw]">
-      <img src={props.image} alt="Loading"/>
-    </div>
-  )
+const Slide = props => {
+	return (
+		<div className='w-[60vw] overflow-hidden rounded-lg shadow-lg shadow-slate-100'>
+			<img src={props.image} alt='Loading' />
+		</div>
+	)
 }
 
 const Slider = () => {
-  return (
-    <div className="flex justify-center h-[80%]">
-    <Slide image={images.photo1} />
-    </div>
-  )
+	return (
+		<div className='flex h-[75%] min-w-full items-center justify-center overflow-x-scroll'>
+			<Slide image={slide_image.slideImage1} />
+			<Slide image={slide_image.slideImage1} />
+			<Slide image={slide_image.slideImage1} />
+		</div>
+	)
 }
 
 export default Slider
