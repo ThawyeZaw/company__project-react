@@ -19,6 +19,10 @@
 		transition: 0.5s;
 	}
 
+	.scrolling-wrapper {
+		-webkit-overflow-scrolling: touch;
+	}
+
 	.home-text > span:hover {
 		color: rgb(161 98 7);
 		font-size: 120%;
