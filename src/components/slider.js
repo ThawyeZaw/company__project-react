@@ -3,7 +3,7 @@ import { slide_image } from '../images/images'
 const Slide = props => {
 	return (
 		<div className={'inline-block flex-shrink-0 overflow-hidden rounded-lg object-cover shadow-lg shadow-slate-100 ' + props.size}>
-			<img src={props.image} alt='Loading' className='h-full w-full object-cover object-center' />
+			<img src={props.image} alt='Loading' className='h-full w-full object-cover object-center select-none' />
 		</div>
 	)
 }
