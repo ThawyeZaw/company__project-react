@@ -8,11 +8,11 @@ const Nav = () => {
 				<img src={images.logo} alt='DreamLand' />
 			</div>
 			<ul className='hidden gap-12 text-lg font-bold tracking-wider lg:flex xl:text-2xl'>
-				<li>Home</li>
-				<li>About</li>
-				<li>Designs</li>
-				<li>Contact</li>
-				<li>Log in</li>
+				<li><a href='#home'>Home</a></li>
+				<li><a href='#work'>Work</a></li>
+				<li><a href='#about'>About</a></li>
+				<li><a href='#contact'>Contact</a></li>
+				<li><a href='#login'>Log in</a></li>
 			</ul>
 			<button className='hidden h-12 w-32 rounded-full bg-yellow-700 text-xl font-bold tracking-wider text-gray-100 lg:block'>Sign up</button>
 			<button className='mr-10 h-10 w-12 rounded-md bg-yellow-800 px-2 text-gray-100 lg:hidden'>

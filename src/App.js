@@ -23,7 +23,7 @@ function App() {
 	}, [])
 	
 	return (
-		<div className='App relative w-screen overflow-x-hidden'>
+		<div className='App relative w-screen overflow-x-hidden scroll-smooth'>
 			<Nav />
 			<Home />
 			<Work />

@@ -3,10 +3,10 @@ import { BiSearchAlt2 } from 'react-icons/bi'
 
 const Home = () => {
 	return (
-		<div className='home relative flex h-screen w-full items-center justify-center'>
+		<div className='home relative flex h-screen w-full items-center justify-center' id='home'>
 			<img className='absolute z-0 h-screen w-full object-cover object-top mix-blend-color' src={images.photo1} alt='loading' />
 			<h1 className='absolute flex flex-col items-center font-sans text-7xl font-extrabold text-gray-50'>
-				<p className='text-stroke home-text text-center xl:text-[5.5rem]'>
+				<p className='text-stroke will-change-transform home-text text-center xl:text-[5.5rem]'>
 					<span>Let's</span>
 					<span>&nbsp;</span>
 					<span>build</span>

@@ -26,10 +26,10 @@ const Work = () => {
 					</h1>
 				</div>
 			</div>
-			<div className='relative mt-16 lg:mt-36'>
+			<div className='relative mt-16 lg:mt-36' id='work'>
 				<h1 className='text-stroke pt-4 text-center text-[5.6vw] font-extrabold text-gray-50 md:text-[3.6vw]'>Everything we can to deliver you the best homes.</h1>
 				<div className='z-10 h-[100vh]'>
-					<h1 className='text-stroke h-[15%] w-full text-center text-[5vw] font-extrabold text-gray-50'>Our Works</h1>
+					<h1 className='text-stroke h-[15%] w-full text-center text-[5vmax] font-extrabold text-gray-50'>Our Works</h1>
 					<Slider />
 					<div className='h-[10%]'></div>
 				</div>
