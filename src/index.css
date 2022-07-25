@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+	html{
+		scroll-behavior: smooth;
+	}
 	body {
 		overflow-x: hidden;
 	}
@@ -21,10 +24,6 @@
 
 	.home-text > span{
 		transition: 0.5s;
-	}
-
-	.scrolling-wrapper {
-		-webkit-overflow-scrolling: touch;
 	}
 
 	.home-text > span:hover {
